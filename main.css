@@ -545,7 +545,7 @@ hr{
             height: 60px;
             border: 1px solid #f2f2f2;
             background-color:rgb(32,32,32);
-            z-index: 2;
+            z-index: 1;
         }
       
       .menu-toggle {
@@ -680,11 +680,19 @@ hr{
      }
 
           /* modal box */
+
+          .modal {
+            z-index: 2;
+            padding-top: 50px; 
+           
+        }
           .modal-content {
             width: 80%;
-            height: 80%;
+            height: 85%;
             display: flex;
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         .close {
             color: #f2f2f2;
@@ -692,8 +700,8 @@ hr{
             font-size: 20px;
             font-weight: bold;
             position: relative;
-            left: 140px;
-            bottom: 220px;
+            left: 135px;
+            bottom: 245px;
         }
         .projectLinks a{
             font-size: 15px;
@@ -748,6 +756,7 @@ hr{
         padding-left: 40px; 
         outline: none;
         color: #f2f2f2;
+        border-radius: none;
     }
     .form1 textarea{
         width: 200px;
@@ -759,6 +768,7 @@ hr{
         padding-left: 40px; 
         outline: none;
         color: #f2f2f2;
+        border-radius: none;
     }
     .form1 button{
         width: 240px;
@@ -770,6 +780,7 @@ hr{
         font-size: 20px;
         outline: none;
         cursor: pointer;
+        border-radius: none;
     
     }
     .cntfrmicn{
