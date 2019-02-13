@@ -78,6 +78,8 @@ body{
     animation: icon3d 200ms infinite;
 }
 
+
+
 @keyframes icon3d {
     0% {
       text-shadow: 5px 4px #f44336, -5px -6px #2196f3;
@@ -198,7 +200,11 @@ hr{
     font-weight: 400;
 }
 .contact_icon{
+   text-decoration: none;
     text-align: center;
+}
+.contact_links{
+    display: flex;
 }
 .contact_icon h1{
     color: #f2f2f2;
@@ -206,6 +212,26 @@ hr{
 .contact_icon a{
     color: #00ffff;
     padding: 0px 10px 0px 10px;
+    text-decoration: none;
+}
+
+.contact_icon a span {
+    display: none;
+    font-size: 15px;
+}
+.contact_icon a i {
+    display: block;
+}
+
+.contact_icon a:hover i {
+    display: none;
+    -webkit-animation: none;
+    animation: none
+}
+.contact_icon a:hover span {
+    display: block;
+    -webkit-animation: icon3d 200ms infinite;
+    animation: icon3d 200ms infinite;
 }
 
 /* skills */
@@ -519,6 +545,30 @@ hr{
     .contact_icon a{
         color: #00ffff;
         padding: 0px 10px 0px 10px;
+    }
+
+    .contact_links{
+        display: flex;
+        text-decoration: none;
+    }
+
+    .contact_icon a span {
+        display: none;
+        font-size: 15px;
+    }
+    .contact_icon a i {
+        display: block;
+    }
+    
+    .contact_icon a:hover i {
+        display: none;
+        -webkit-animation: none;
+        animation: none
+    }
+    .contact_icon a:hover span {
+        display: block;
+        -webkit-animation: icon3d 200ms infinite;
+        animation: icon3d 200ms infinite;
     }
 
     /* about */
