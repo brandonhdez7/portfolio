@@ -50,12 +50,12 @@ body{
     text-decoration: none;
 }
 .icon-3d {
-    -webkit-animation: icon3d 100ms 10;
-    animation: icon3d 100ms 10;
+    -webkit-animation: icon3d 200ms 10;
+    animation: icon3d 200ms 10;
 }
 .icon-3d:hover {
-    -webkit-animation: icon3d 100ms infinite;
-    animation: icon3d 100ms infinite;
+    -webkit-animation: none;
+    animation: none;
 }
 
 
@@ -69,8 +69,8 @@ body{
 
 .navbar a:hover i {
     display: none;
-    -webkit-animation: icon3d 200ms infinite;
-    animation: icon3d 200ms infinite;
+    -webkit-animation: none;
+    animation: none
 }
 .navbar a:hover span {
     display: block;
