@@ -50,18 +50,20 @@ body{
     text-decoration: none;
 }
 .icon-3d {
-    -webkit-animation: icon3d 200ms 10;
-    animation: icon3d 200ms 10;
+    -webkit-animation: icon3d 40ms 10;
+    animation: icon3d 40ms 10;
 }
-.icon-3d:hover {
-    -webkit-animation: none;
-    animation: none;
+.icon-3d :hover {
+    -webkit-animation: icon3d 0ms ;
+    animation: icon3d 0ms ;
 }
 
 
 .navbar a span {
     display: none;
     font-size: 15px;
+    padding: 0px;
+    margin: 0px;
 }
 .navbar a i {
     display: block;
@@ -74,8 +76,8 @@ body{
 }
 .navbar a:hover span {
     display: block;
-    -webkit-animation: icon3d 200ms infinite;
-    animation: icon3d 200ms infinite;
+    -webkit-animation: icon3d 40ms infinite;
+    animation: icon3d 40ms infinite;
 }
 
 
@@ -218,6 +220,8 @@ hr{
 .contact_icon a span {
     display: none;
     font-size: 15px;
+    padding: 0px;
+    margin:0px;
 }
 .contact_icon a i {
     display: block;
@@ -225,13 +229,13 @@ hr{
 
 .contact_icon a:hover i {
     display: none;
-    -webkit-animation: none;
-    animation: none
+    -webkit-animation: icon3d 0ms infinite;
+    animation: icon3d 0ms infinite;
 }
 .contact_icon a:hover span {
     display: block;
-    -webkit-animation: icon3d 200ms infinite;
-    animation: icon3d 200ms infinite;
+    -webkit-animation: icon3d 40ms infinite;
+    animation: icon3d 40ms infinite;
 }
 
 /* skills */
