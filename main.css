@@ -355,7 +355,12 @@ hr{
         animation-name: animatetop;
         animation-duration: 0.4s;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;;
+    }
+    .projectDescription{
+        padding-top: 30px;
+        width: 100%;
+        display: flex;
     }
     
     /* Add Animation */
@@ -370,12 +375,9 @@ hr{
     }
     .close {
         color: #f2f2f2;
-        float: right;
-        font-size: 20px;
+        font-size: 30px;
         font-weight: bold;
-        position: relative;
-        left: 170px;
-        bottom: 10px;
+        padding: 15px;
     }
     
     .close:hover,
@@ -405,8 +407,10 @@ hr{
         padding: 0px 20px 10px 20px;
         text-align: center;
     }
-    .projectLinks h1, .screenShot h1{
+    .projectName h1{
+        padding-top: 30px;
         color: #00ffff;
+        margin-bottom: 10px;
     }
     .screenShot{
         width: 50%;
@@ -422,6 +426,15 @@ hr{
         display: flex;
     }
 
+    .projectHeader{
+        width: 100%;
+        display: flex;
+    }
+    .projectName{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
 
 @media only screen and (max-width: 768px){
     /* projects */
@@ -446,11 +459,9 @@ hr{
         .close {
             color: #f2f2f2;
             float: right;
-            font-size: 20px;
+            font-size: 30px;
             font-weight: bold;
-            position: relative;
-            left: 280px;
-            bottom: 430px;
+            padding: 15px;
         }
         .projectLinks{
             width: 100%;
@@ -772,12 +783,9 @@ hr{
         }
         .close {
             color: #f2f2f2;
-            float: right;
-            font-size: 20px;
-            font-weight: bold;
-            position: relative;
-            left: 135px;
-            bottom: 245px;
+            font-size: 30px;
+        font-weight: bold;
+        padding: 15px;
         }
         .projectLinks a{
             font-size: 15px;
