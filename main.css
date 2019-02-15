@@ -277,6 +277,19 @@ hr{
     display: flex;
     border: 1px solid #f2f2f2;
  }
+ .profileImage{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.profileImage img{
+    width: 440px;
+    opacity: 0.7;
+}
+
+
+ /* project page */
  .projectsPage{
     width: 95%;
     height: 100vh;
@@ -377,7 +390,7 @@ hr{
         color: #f2f2f2;
         font-size: 30px;
         font-weight: bold;
-        padding: 15px;
+        margin: 15px;
     }
     
     .close:hover,
@@ -461,7 +474,7 @@ hr{
             float: right;
             font-size: 30px;
             font-weight: bold;
-            padding: 15px;
+            margin: 15px;
         }
         .projectLinks{
             width: 100%;
@@ -476,6 +489,16 @@ hr{
             flex-direction: column;
             justify-content: center;
             align-items: center;
+        }
+        .projectHeader{
+            width: 100%;
+            display: flex;
+            text-align: center;
+        }
+        .projectDescription{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
         }
     
     /* skills */
@@ -593,10 +616,16 @@ hr{
         justify-content: center;
         align-items: center;
     }
-    
-
-
-
+    .profileImage{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .profileImage img{
+        width: 440px;
+        opacity: 0.7;
+    }
 
 }
 
@@ -737,6 +766,17 @@ hr{
         font-size: 17px;
     }
 
+    .profileImage{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .profileImage img{
+        width: 200px;
+        opacity: 0.7;
+    }
+
     /* projects */
     
     .projectsPage{
@@ -784,8 +824,12 @@ hr{
         .close {
             color: #f2f2f2;
             font-size: 30px;
-        font-weight: bold;
-        padding: 15px;
+            font-weight: bold;
+            position: relative;
+            bottom: 100px;
+            left: 130px;
+            margin: 0px;
+
         }
         .projectLinks a{
             font-size: 15px;
@@ -793,13 +837,28 @@ hr{
         .modal-content h1{
             margin: 5px;
             text-align: center;
-            font-size: 30px;
+            font-size: 20px;
+            padding: 5px;
+            margin: 0px;
         }
         .projectLinks p{
             color: #f2f2f2;
             font-size: 15px;
             padding: 0px 10px 10px 10px;
 
+        }
+        .projectHeader{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+        }
+        .projectDescription{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding-top: 0px;
         }
 
      /* skills */
