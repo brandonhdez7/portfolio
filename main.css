@@ -266,7 +266,7 @@ hr{
  .title p{
      color: #f2f2f2;
      width: 350px;
-     font-size: 25px;
+     font-size: 20px;
      text-align: center;
  }
 
@@ -361,7 +361,7 @@ hr{
         padding: 0px;
         border: 1px solid #888;
         width: 70%;
-        height: 60%;
+        height: 65%;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
         -webkit-animation-name: animatetop;
         -webkit-animation-duration: 0.4s;
@@ -390,7 +390,8 @@ hr{
         color: #f2f2f2;
         font-size: 30px;
         font-weight: bold;
-        margin: 15px;
+       position: relative;
+       right: 20px;
     }
     
     .close:hover,
@@ -406,6 +407,10 @@ hr{
         justify-content: center;
         align-items: center;
     }
+    .projectLinks h3{
+        margin: 0px;
+        color: #00ffff;
+    }
     .projectLinks a{
         text-decoration: none;
         color: #f2f2f2;
@@ -417,16 +422,18 @@ hr{
     .projectLinks p{
         color: #f2f2f2;
         font-size: 20px;
-        padding: 0px 20px 10px 20px;
+        padding: 0px 0px 0px 0px;
         text-align: center;
+        margin: 10px;
     }
     .projectName h1{
         padding-top: 30px;
         color: #00ffff;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
     .screenShot{
         width: 50%;
+        height: max-content;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -474,7 +481,8 @@ hr{
             float: right;
             font-size: 30px;
             font-weight: bold;
-            margin: 15px;
+            position: relative;
+            right: 20px;
         }
         .projectLinks{
             width: 100%;
@@ -828,7 +836,6 @@ hr{
             position: relative;
             bottom: 100px;
             left: 130px;
-            margin: 0px;
 
         }
         .projectLinks a{
@@ -839,12 +846,11 @@ hr{
             text-align: center;
             font-size: 20px;
             padding: 5px;
-            margin: 0px;
         }
         .projectLinks p{
             color: #f2f2f2;
             font-size: 15px;
-            padding: 0px 10px 10px 10px;
+            padding: 0px 5px 5px 5px;
 
         }
         .projectHeader{
@@ -852,7 +858,14 @@ hr{
             display: flex;
             align-items: center;
             flex-direction: column;
+            padding: 0px;
+            margin: 0px;
 
+        }
+        .projectHeader .projectName{
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
         }
         .projectDescription{
             width: 100%;
