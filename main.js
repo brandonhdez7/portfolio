@@ -1,5 +1,5 @@
 window.onload = function () {
-  console.log('hey')
+  // console.log('hey')
   try {
     TagCanvas.Start('myCanvas', 'tags', {
       textColour: '#00ffff',
@@ -20,7 +20,7 @@ window.onload = function () {
 // var modal = document.getElementsByClassName('modal');
 var modal = [].slice.call(document.getElementsByClassName('modal'))
 var boxes = [].slice.call(document.getElementsByClassName('box'))
-console.log('modal, ', boxes);
+// console.log('modal, ', boxes);
 let activeBox = 0;
 
 var buttons = [].slice.call(document.getElementsByClassName('button'));
@@ -43,7 +43,7 @@ for (let span of spans) {
   span.addEventListener("click", (e) => {
     modal[activeBox].style.display = "block";
 
-    console.log('whichModal: ', activeBox)
+    // console.log('whichModal: ', activeBox)
     modal[activeBox].style.display = "none";
   })
 }
